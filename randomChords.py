@@ -3,7 +3,7 @@ import random
 array = ["A", "B", "C", "D", "E", "F", "G"]
 
 while True:
-    extraNotes = ["maj7", "min7", "7", "min7b5", "dim7", "6", "6/9", "min6"]
+    extraNotes = ["maj", "min", "maj7", "min7", "7", "min7b5", "dim7", "6", "6/9", "min6"]
     finalChords = []
     def random_extra_notes():
         chord = extraNotes[random.randint(0, len(extraNotes) - 1)]
