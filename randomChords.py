@@ -1,6 +1,6 @@
 import random
 
-array = ["A", "B", "C", "D", "E", "F", "G"]
+array = ["A", "A#", "B", "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#"]
 
 while True:
     extraNotes = ["maj", "min", "maj7", "min7", "7", "min7b5", "dim7", "6", "6/9", "min6"]
